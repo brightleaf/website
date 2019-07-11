@@ -58,7 +58,7 @@ export const CoverTemplate = () => {
                       </a>
                     </TabItem>
                     <TabItem>
-                      <a href="/react-hooks/#">Hooks</a>
+                      <a href="/hooks/#">Hooks</a>
                     </TabItem>
                     <TabItem>
                       <a href="https://brightleaf.github.io/elements">Help</a>

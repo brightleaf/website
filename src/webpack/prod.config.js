@@ -51,7 +51,7 @@ const prodConfig = {
   output: {
     path: path.join(process.cwd(), '/dist'),
     publicPath: '/',
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
   },
 }
 

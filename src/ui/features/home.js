@@ -76,7 +76,7 @@ export const CoverTemplate = () => {
             </Column>
             <Column size="6" className="is-offset-1">
               <Title is="2">
-                Brightleaf{' '}
+                Brightleaf JS{' '}
                 <img className="logo" src="/brightleaf.png" alt="Logo" />
               </Title>
               <SubTitle is="4">Open Source Projects.</SubTitle>

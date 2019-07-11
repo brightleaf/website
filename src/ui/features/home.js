@@ -1,36 +1,26 @@
 import React from 'react'
+import { Button } from '@brightleaf/elements/lib/button'
+import { Column, Columns } from '@brightleaf/elements/lib/columns'
+import { Container } from '@brightleaf/elements/lib/container'
 
 import {
-  BaseIcon,
-  Box,
-  Button,
-  Card,
-  CardImageContainer,
-  CardBody,
-  Column,
-  Columns,
-  Container,
-  Content,
-  Footer,
   Hero,
-  HeroHead,
   HeroBody,
   HeroFooter,
-  Image,
+  HeroHead,
+} from '@brightleaf/elements/lib/hero'
+import { Image } from '@brightleaf/elements/lib/image'
+import {
   NavBar,
+  NavBarBrand,
   NavBarEnd,
   NavBarMenu,
-  NavBarBrand,
-  NavBarItem,
-  Icon,
-  Tile,
-  Title,
-  SubTitle,
-  Tag,
-  Tabs,
-  TabItem,
-  TabList,
-} from '@brightleaf/elements'
+} from '@brightleaf/elements/lib/navbar'
+
+import { SubTitle } from '@brightleaf/elements/lib/subtitle'
+import { Tabs, TabItem, TabList } from '@brightleaf/elements/lib/tabs'
+
+import { Title } from '@brightleaf/elements/lib/title'
 import { navigate } from '@reach/router'
 
 export const CoverTemplate = () => {

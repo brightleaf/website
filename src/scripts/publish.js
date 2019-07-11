@@ -5,6 +5,9 @@ ghpages.publish(
   {
     message: 'Publisher generated commit [ci skip]',
   },
+  {
+    branch: 'master',,
+  },
   function(err) {
     if (err) {
       console.error('Error Publishing', err)

@@ -4,9 +4,8 @@ ghpages.publish(
   'dist',
   {
     message: 'Publisher generated commit [ci skip]',
-  },
-  {
-    branch: 'master',,
+    branch: 'master',
+    repo: 'git@github.com:brightleaf/brightleaf.github.io.git',
   },
   function(err) {
     if (err) {
